@@ -1,0 +1,173 @@
+body {
+    background-color: #81023e; /* Dark blue */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gridContenedor {
+    display: grid;
+    grid-template-columns: 10% 80%; /* Adjusted column widths */
+    grid-template-rows: 50px auto; /* Changed row heights */
+    margin-left: 0%; /* Adjusted margin */
+    border: 30px solid #ffffff; /* White border */
+    border-radius: 500px;
+}
+
+.divMenu {
+    grid-column: span 2;
+    display: flex;
+    padding-left: 500px;
+    align-items: center;
+    gap: 20px; /* Reduced gap */
+    background-color: #dde1dd; /* Darker blue */
+    color: #9c0b73; /* White */
+    border-bottom: 2px solid #fff; /* White border */
+    border-radius: 500px;
+
+}
+
+
+
+.divSeleccion {
+    margin-right: 20px;
+}
+
+.divSeleccion select {
+    height: 30px; /* Reduced height */
+    width: px; /* Increased width */
+}
+
+.divEvento {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    border-radius: 50px;
+    background-color: #0263ff; /* Darker blue */
+    border: 2px solid #ffffff; /* White border */
+    align-items: center;
+   
+}
+
+.divEvento button {
+    margin-top: 20px; /* Reduced margin */
+    width: 80%; /* Reduced width */
+    height: 50px; /* Reduced height */
+    background-color: #9c0505; /* White */
+    color: #b8b8c4; /* Darker blue */
+    border-radius: 50px;
+}
+
+.divListaEvento ol {
+    list-style: none;
+    padding-left: 0;
+    color: #19f900; /* White */
+}
+
+.divListaEvento li {
+    margin-top: 10px; /* Reduced margin */
+}
+
+.divMeses {
+    text-align: center;
+    border: 2px solid #fff; /* White border */
+    background-color: #16d90c; /* Darker blue */
+    color: #fff; /* White */
+}
+
+.divMeses ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+    margin: 0;
+}
+
+.divMeses li {
+    height: 70px; 
+    border: 1px solid #fff; /* White border */
+}/* Darker blue */
+
+.primerDiaMes {
+    grid-column-start: 2;
+}
+
+.divDias {
+    background-color: #2d5aa3; /* Darker blue */
+    color: #fff; 
+    text-align: center;
+}
+
+.divDias ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    margin: 0;
+}
+
+.divDias li {
+    height: 70px; /* Reduced height */
+}
+
+.tituloFormulario {
+    margin: 60px 0; /* Adjusted margin */
+    color: #fff; /* White */
+}
+
+.flexPrincipal {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Reduced gap */
+    border: 2px solid #fff; /* White border */
+    margin: 40px auto; /* Centered with auto margin */
+    padding: 20px; /* Added padding */
+    background-color: #d1d4da; /* Darker blue */
+}
+
+.divFlexFormulario {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 60%; /* Adjusted width */
+    color: #fff; /* White */
+}
+
+.divFlexFormulario button {
+    border-color: #fff; /* White */
+    height: 30px;
+
+}
+
+.divFlexBoton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 40px;
+}
+
+.divFlexBoton button {
+    background-color: #fff; /* White */
+    border-color: #2d5aa3; /* Darker blue */
+    color: #2d5aa3; /* Darker blue */
+
+}
+
+.cuerpo2 {
+    background-color: #9c0505; /* Dark blue */
+}
+
+.divAnio {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #1f3a93; /* Dark blue */
+    color: #fff; /* White */
+
+}
+
+.divAnio div {
+    height: 100px;
+}
